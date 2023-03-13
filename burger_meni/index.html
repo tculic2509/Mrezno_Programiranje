@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <header>
+    <div class="container maxw test">
+        <img src="assets/img/J..svg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+        <div id="myLinks">
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+          </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </div>
+
+   </header>
+   <section class="intro container">
+        <div class="grid maxw">
+            <div class="left">
+                <h6>&mdash;&nbsp; HELLO</h6>
+                <h1>I'm <span>John Doe</span></h1>
+                <p class="intro-txt">This is my very own first page that I
+                    made during CII course</p>
+                    <button class="btn">Contact me</button>
+            </div>
+            <div class="right">
+                <img src="assets/img/hero_img 1 (1).png" alt="lik">
+            </div>
+        </div>
+   </section> 
+
+</body>
+</html>
